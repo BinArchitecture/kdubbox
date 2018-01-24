@@ -104,8 +104,9 @@ public class DubboHttpServer extends BaseRestServer {
 						KafkaDubboUtil.getLogSender().sendMsg(did);
 					} catch (Exception e) {
 						e.printStackTrace();
-					}
-                DubboHttpServer.getTh().remove();
+					}finally{
+						DubboHttpServer.getTh().remove();
+				}
             }
         }
     }
