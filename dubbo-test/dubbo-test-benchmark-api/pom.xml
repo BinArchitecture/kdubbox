@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo-rpc-rest</artifactId>
-            <version>${project.parent.version}</version>
+            <version>2.9.3</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
